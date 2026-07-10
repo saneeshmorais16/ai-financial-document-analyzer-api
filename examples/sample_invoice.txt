@@ -1,0 +1,7 @@
+Invoice Number: INV-SAMPLE-1001
+From: Northstar Demo Supplies
+Bill To: River City Training Studio
+Invoice Date: 2026-03-14
+Amount Due: USD 4,250.00
+Payment Terms: Net 30
+The customer shall pay the full balance within 30 days.

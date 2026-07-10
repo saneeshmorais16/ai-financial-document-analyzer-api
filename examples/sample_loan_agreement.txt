@@ -1,0 +1,8 @@
+Loan Agreement: LOAN-SAMPLE-2040
+Lender: Example Community Finance
+Borrower: Harbor Demo Foods
+Agreement Date: 2026-04-02
+Principal Amount: USD 75,000.00
+Repayment Terms: 24 monthly installments beginning 2026-05-01
+Borrower shall repay principal and interest according to the repayment schedule.
+Late payment may result in a late fee.

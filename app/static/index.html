@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Financial Document Analyzer</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="input-panel">
+        <header>
+          <h1>AI Financial Document Analyzer</h1>
+          <p>Rule-based extraction for safe sample financial text.</p>
+        </header>
+        <label for="sourceName">Source name</label>
+        <input id="sourceName" value="sample_invoice.txt" />
+        <label for="documentText">Document text</label>
+        <textarea id="documentText" spellcheck="false">Invoice Number: INV-SAMPLE-1001
+From: Northstar Demo Supplies
+Bill To: River City Training Studio
+Invoice Date: 2026-03-14
+Amount Due: USD 4,250.00
+Payment Terms: Net 30
+The customer shall pay the full balance within 30 days.</textarea>
+        <div class="actions">
+          <input id="fileInput" type="file" />
+          <button id="analyzeButton">Analyze</button>
+        </div>
+      </section>
+      <section class="output-panel">
+        <div class="output-header">
+          <h2>Analysis</h2>
+          <span id="status">Idle</span>
+        </div>
+        <div id="summary" class="summary"></div>
+        <div id="flags" class="flags"></div>
+        <pre id="jsonOutput">{}</pre>
+      </section>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
