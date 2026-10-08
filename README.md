@@ -115,6 +115,8 @@ Open the frontend:
 http://127.0.0.1:8000
 ```
 
+Use a different local port with `PORT=8001 python run.py` if another demo is already running.
+
 Health check:
 
 ```text
